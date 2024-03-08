@@ -1,0 +1,12 @@
+body
+{
+    font-family: 'Helvetica', Sans-Serif;
+    color: #444444;
+    font-size: 9pt;
+    background-color: #FAFAFA;
+}
+h1 {
+    color: #00a800; /* Il colore dell'intestazione */
+    font-size: 24px; /* La dimensione del font dell'intestazione */
+    font-family: Georgia, serif; /* La famiglia del font usata nell'intestazione */
+}
