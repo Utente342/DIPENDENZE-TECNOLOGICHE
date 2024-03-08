@@ -8,5 +8,21 @@ body
 h1 {
     color: #00a800; /* Il colore dell'intestazione */
     font-size: 24px; /* La dimensione del font dell'intestazione */
-    font-family: Georgia, serif; /* La famiglia del font usata nell'intestazione */
 }
+@keyframes color-change {
+    0% {
+      color: rgb(38, 38, 171);
+    }
+
+    50% {
+      color: rgb(238, 83, 83);
+    }
+
+    100% {
+      color: rgb(63, 13, 74);
+    }
+  }
+
+  h1:hover {
+    animation: color-change 3s infinite;
+  }
